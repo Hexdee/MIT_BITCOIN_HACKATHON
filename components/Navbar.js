@@ -56,7 +56,7 @@ function Navbar(props) {
       </div>
       {/* </div> */}
       <div className="items-end">
-        <button className="tetiary-1">Join Us</button>
+        <button className="tetiary-1">Connect Wallet</button>
       </div>
     </header>
   );
