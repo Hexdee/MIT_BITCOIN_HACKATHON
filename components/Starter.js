@@ -1,10 +1,7 @@
 import { useScroll } from "../components/useScroll";
 import Image from "next/image";
 import { motion } from "framer-motion";
-
 import about from "../public/about.png";
-// import rocket from "../../public/img/emoji/rocket.png";
-// import party from "../../public/img/emoji/party-popper.png";
 import { headerAnimation, imageAnimation } from "../components/Animations";
 
 export default function Starter() {
