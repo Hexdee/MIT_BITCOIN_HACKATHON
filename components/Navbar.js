@@ -48,9 +48,9 @@ function Navbar(props) {
         <Link href="/events">
           <a className="nav-link">Roadmap</a>
         </Link>
-        <a className="nav-link">Donate</a>
+        <a className="nav-link">NFTs</a>
         <Link href="/contact">
-          <a className="nav-link">Contact Us</a>
+          <a className="nav-link">Join Discord</a>
         </Link>
         <a className="nav-link">FAQs</a>
       </div>

@@ -52,7 +52,7 @@ export default function Starter() {
         <motion.button whileHover={{ y: -2 }} whileTap={{ y: 0 }}>
           <button className="primary">
             Join Discord&nbsp;
-            {/* <Image width={20} height={20} src={party} alt="image" /> */}
+            
           </button>
         </motion.button>
       </div>

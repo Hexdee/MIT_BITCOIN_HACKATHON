@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useScroll } from "../components/useScroll";
-import hackathon from "../public/hackathon.svg"
+import hackathon from "../public/hackathon.svg";
 import { videoAnimation, reasonsAnimation } from "../components/Animations";
 
-export default function Card1() {
+export default function Roadmap() {
   const [element, controls] = useScroll();
   return (
     <>
@@ -42,12 +42,11 @@ export default function Card1() {
             on the social cause project of your interest. Thereafter, you can
             decide either sell your project IP or get our consultant to make it
             a business.
-                  </h4>
-                  
+          </h4>
+
           <button className="primary mt-6">Join Discord&nbsp;</button>
         </motion.div>
       </div>
-      
     </>
   );
 }
