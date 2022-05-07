@@ -2,8 +2,12 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { login, logout } from "../utils/near";
 
 function Navbar(props) {
+  let account = {}
+  if(typeof(window) == 'object')
+    account = window.walletConnection ? window.walletConnection.account() : {};
   const [hideNav, setHideNav] = useState(true);
   const [screenWidth, setScreenWidth] = useState();
   const openNav = () => {
@@ -56,7 +60,9 @@ function Navbar(props) {
       </div>
       {/* </div> */}
       <div className="items-end">
-        <button className="tetiary-1">Connect Wallet</button>
+	  {!account.accountId ?
+        <button className="tetiary-1" onClick={login}>Connect Wallet</button>:
+        <button className="tetiary-1" onClick={logout}>Disconnect</button>}
       </div>
     </header>
   );
