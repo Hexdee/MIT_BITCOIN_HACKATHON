@@ -24,8 +24,7 @@ export default function Cards() {
             <motion.div
               whileHover={{ y: -5 }}
               initial="hidden"
-              animate="show"
-              animate={controls}
+              animate={["show", controls]}
               variants={cardAnimation}
               transition={{ delay: 0.1, stiffness: 300 }}
               className="flex flex-col  bg-[#4a5673]/20 border-white/10 border-2 rounded-lg items-center p-5"
@@ -36,8 +35,7 @@ export default function Cards() {
             <motion.div
               whileHover={{ y: -5 }}
               initial="hidden"
-              animate="show"
-              animate={controls}
+              animate={["show", controls]}
               variants={cardAnimation}
               transition={{ delay: 0.1, stiffness: 300 }}
               className="flex flex-col bg-[#4a5673]/20 border-white/10 border-2 rounded-lg items-center p-5"
@@ -50,8 +48,7 @@ export default function Cards() {
             <motion.div
               whileHover={{ y: -5 }}
               initial="hidden"
-              animate="show"
-              animate={controls}
+              animate={["show", controls]}
               variants={cardAnimation}
               transition={{ delay: 0.1, stiffness: 300 }}
               className="flex flex-col bg-[#4a5673]/20 border-white/10 border-2 rounded-lg items-center p-5"
@@ -63,8 +60,7 @@ export default function Cards() {
             <motion.div
               whileHover={{ y: -5 }}
               initial="hidden"
-              animate="show"
-              animate={controls}
+              animate={["show", controls]}
               variants={cardAnimation}
               transition={{ delay: 0.1, stiffness: 300 }}
               className="flex flex-col bg-[#4a5673]/20 border-white/10 border-2 rounded-lg items-center p-5"
