@@ -53,7 +53,7 @@ function Navbar(props) {
           <a className="nav-link">Roadmap</a>
         </Link>
         <a className="nav-link">NFTs</a>
-        <Link href="/contact">
+        <Link href="https://discord.gg/t6Sk8vyR">
           <a className="nav-link">Join Discord</a>
         </Link>
         <a className="nav-link">FAQs</a>
