@@ -40,7 +40,7 @@ body{
     @apply font-cabin font-bold laptop:text-[30px] text-[20px] capitalize;
   }
   h4 {
-    @apply font-inter font-bold laptop:text-[24px] text-[14px] capitalize;
+    @apply font-inter font-bold laptop:text-[24px] text-[14px];
   }
   h5 {
     @apply font-cabin font-bold laptop:text-[20px] text-[18px] capitalize;
