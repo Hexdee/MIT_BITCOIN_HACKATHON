@@ -49,12 +49,16 @@ export default function Starter() {
             process. For more details check below
           </div>
         </div>
+        <a href="https://discord.gg/t6Sk8vyR">
         <motion.button whileHover={{ y: -2 }} whileTap={{ y: 0 }}>
-          <button className="primary">
+          <button className="primary" >
+
             Join Discord&nbsp;
-            
+                      
+        
           </button>
         </motion.button>
+         </a>
       </div>
     </div>
   );
